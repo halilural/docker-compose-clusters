@@ -1,0 +1,7 @@
+version: '3.7'
+
+#creates a network to connect with hostnames
+
+networks:
+  application:
+    driver: bridge
